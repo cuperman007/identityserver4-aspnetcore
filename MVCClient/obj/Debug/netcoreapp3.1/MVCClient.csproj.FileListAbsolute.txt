@@ -41,3 +41,4 @@ C:\Development\IdentityServer\QuickStart-AspNetCore\MVCClient\obj\Debug\netcorea
 C:\Development\IdentityServer\QuickStart-AspNetCore\MVCClient\obj\Debug\netcoreapp3.1\MVCClient.csproj.CopyComplete
 C:\Development\IdentityServer\QuickStart-AspNetCore\MVCClient\obj\Debug\netcoreapp3.1\MVCClient.dll
 C:\Development\IdentityServer\QuickStart-AspNetCore\MVCClient\obj\Debug\netcoreapp3.1\MVCClient.pdb
+C:\Development\IdentityServer\QuickStart-AspNetCore\MVCClient\obj\Debug\netcoreapp3.1\Razor\Views\Home\TestAuthApi.cshtml.g.cs

@@ -43,6 +43,9 @@ namespace MVCClient
                     options.ResponseType = "code";
 
                     options.SaveTokens = true;
+
+                    options.Scope.Add("grootscope");
+                    options.Scope.Add("api1scope");
                 });
         }
 

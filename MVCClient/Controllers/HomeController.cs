@@ -2,10 +2,14 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using MVCClient.Models;
+using Newtonsoft.Json.Linq;
 
 namespace MVCClient.Controllers
 {
@@ -20,6 +24,25 @@ namespace MVCClient.Controllers
 
         public IActionResult Index()
         {
+            return View();
+        }
+
+        public async Task<IActionResult> TestAuthApi()
+        {
+            var accessToken = await HttpContext.GetTokenAsync("access_token");
+
+            var client = new HttpClient();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+            
+            var response = await client.GetAsync("https://localhost:5101/api1");
+            ViewBag.Api1ScopeResponse = response.StatusCode;
+
+            response = await client.GetAsync("https://localhost:5101/api2");
+            ViewBag.Api2ScopeResponse = response.StatusCode;
+
+            response = await client.GetAsync("https://localhost:5101/groot");
+            ViewBag.GrootScopeResponse = response.StatusCode;
+
             return View();
         }
 

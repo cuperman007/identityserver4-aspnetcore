@@ -19,7 +19,11 @@ namespace IdentityServer
 
         public static IEnumerable<ApiScope> ApiScopes =>
             new ApiScope[]
-            { };
+            {
+                new ApiScope("api1scope", "My first API"),
+                new ApiScope("api2scope", "My second API"),
+                new ApiScope("grootscope", "My groot service scope"),
+            };
 
         public static IEnumerable<Client> Clients =>
             new Client[]
@@ -33,15 +37,17 @@ namespace IdentityServer
                     AllowedGrantTypes = GrantTypes.Code,
 
                     // where to redirect to after login
-                    RedirectUris = { "https://localhost:5002/signin-oidc" },
+                    RedirectUris = { "https://localhost:5201/signin-oidc" },
 
                     // where to redirect to after logout
-                    PostLogoutRedirectUris = { "https://localhost:5002/signout-callback-oidc" },
+                    PostLogoutRedirectUris = { "https://localhost:5201/signout-callback-oidc" },
 
                     AllowedScopes = new List<string>
                     {
                         IdentityServerConstants.StandardScopes.OpenId,
-                        IdentityServerConstants.StandardScopes.Profile
+                        IdentityServerConstants.StandardScopes.Profile,
+                        "grootscope",
+                        "api1scope"
                     }
                 }
             };
