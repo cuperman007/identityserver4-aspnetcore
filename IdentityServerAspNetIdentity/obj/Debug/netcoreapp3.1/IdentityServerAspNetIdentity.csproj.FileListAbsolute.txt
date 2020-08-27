@@ -82,11 +82,8 @@ C:\development\IdentityServer\QuickStart-AspNetCore\IdentityServerAspNetIdentity
 C:\development\IdentityServer\QuickStart-AspNetCore\IdentityServerAspNetIdentity\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 C:\development\IdentityServer\QuickStart-AspNetCore\IdentityServerAspNetIdentity\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\development\IdentityServer\QuickStart-AspNetCore\IdentityServerAspNetIdentity\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
-C:\development\IdentityServer\QuickStart-AspNetCore\IdentityServerAspNetIdentity\obj\Debug\netcoreapp3.1\IdentityServerAspNetIdentity.csprojAssemblyReference.cache
 C:\development\IdentityServer\QuickStart-AspNetCore\IdentityServerAspNetIdentity\obj\Debug\netcoreapp3.1\staticwebassets\IdentityServerAspNetIdentity.StaticWebAssets.Manifest.cache
 C:\development\IdentityServer\QuickStart-AspNetCore\IdentityServerAspNetIdentity\obj\Debug\netcoreapp3.1\staticwebassets\IdentityServerAspNetIdentity.StaticWebAssets.xml
-C:\development\IdentityServer\QuickStart-AspNetCore\IdentityServerAspNetIdentity\obj\Debug\netcoreapp3.1\IdentityServerAspNetIdentity.MvcApplicationPartsAssemblyInfo.cs
-C:\development\IdentityServer\QuickStart-AspNetCore\IdentityServerAspNetIdentity\obj\Debug\netcoreapp3.1\IdentityServerAspNetIdentity.MvcApplicationPartsAssemblyInfo.cache
 C:\development\IdentityServer\QuickStart-AspNetCore\IdentityServerAspNetIdentity\obj\Debug\netcoreapp3.1\IdentityServerAspNetIdentity.RazorAssemblyInfo.cache
 C:\development\IdentityServer\QuickStart-AspNetCore\IdentityServerAspNetIdentity\obj\Debug\netcoreapp3.1\IdentityServerAspNetIdentity.RazorAssemblyInfo.cs
 C:\development\IdentityServer\QuickStart-AspNetCore\IdentityServerAspNetIdentity\obj\Debug\netcoreapp3.1\IdentityServerAspNetIdentity.AssemblyInfoInputs.cache
@@ -119,3 +116,6 @@ C:\development\IdentityServer\QuickStart-AspNetCore\IdentityServerAspNetIdentity
 C:\development\IdentityServer\QuickStart-AspNetCore\IdentityServerAspNetIdentity\obj\Debug\netcoreapp3.1\IdentityServerAspNetIdentity.csproj.CopyComplete
 C:\development\IdentityServer\QuickStart-AspNetCore\IdentityServerAspNetIdentity\obj\Debug\netcoreapp3.1\IdentityServerAspNetIdentity.dll
 C:\development\IdentityServer\QuickStart-AspNetCore\IdentityServerAspNetIdentity\obj\Debug\netcoreapp3.1\IdentityServerAspNetIdentity.pdb
+C:\Development\IdentityServer\QuickStart-AspNetCore\IdentityServerAspNetIdentity\obj\Debug\netcoreapp3.1\IdentityServerAspNetIdentity.MvcApplicationPartsAssemblyInfo.cs
+C:\Development\IdentityServer\QuickStart-AspNetCore\IdentityServerAspNetIdentity\obj\Debug\netcoreapp3.1\IdentityServerAspNetIdentity.MvcApplicationPartsAssemblyInfo.cache
+C:\Development\IdentityServer\QuickStart-AspNetCore\IdentityServerAspNetIdentity\obj\Debug\netcoreapp3.1\IdentityServerAspNetIdentity.csprojAssemblyReference.cache
